@@ -155,7 +155,10 @@ body {
 .envelope-icon,
 .icon-smartphone {
     fill: var(--MainGreyColor);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .gap-10-px {
     display: flex;
     gap: 10px;
