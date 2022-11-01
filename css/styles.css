@@ -154,8 +154,7 @@ body {
 }
 .envelope-icon,
 .icon-smartphone {
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--MainGreyColor);
 }
 .gap-10-px {
     display: flex;
@@ -168,7 +167,7 @@ body {
 .envelope-icon:focus,
 .header-links-contact:hover,
 .header-links-contact:focus {
-    stroke: var(--StudioBlueColor);
+    fill: var(--StudioBlueColor);
     color: var(--StudioBlueColor);
     cursor: pointer;
 }
