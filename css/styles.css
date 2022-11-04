@@ -266,6 +266,14 @@ h1 {
    
 }
 
+.icon-clock,
+.icon-diagram,
+.icon-astronaut,
+.icon-antenna {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .icon-antenna:hover,
 .icon-antenna:focus,
 .icon-clock:hover,
@@ -274,7 +282,7 @@ h1 {
 .icon-diagram:focus,
 .icon-astronaut:hover,
 .icon-astronaut:focus {
-    stroke: var(--StudioBlueColor);
+    fill: var(--StudioBlueColor);
     cursor: pointer;
    
 }
