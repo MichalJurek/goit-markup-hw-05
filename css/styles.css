@@ -349,6 +349,31 @@ h1 {
     padding: 0;
     margin: 0;
 }
+.what-we-do-presentation-box{
+    position: relative;
+    display: flex;
+}
+.what-we-do-presentation-label-settings {
+    position: absolute;
+    bottom: 0;
+    font-family: var(--FontDefaultRoboto);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: var(--MainWhiteColor);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    height: 70px;
+
+
+}
 
 .main-section-our-team-heading,
 .our-customer-section-heading,
