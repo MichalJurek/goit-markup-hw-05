@@ -263,7 +263,6 @@ h1 {
     border: 0;
     border-radius: 4px;
     background-color: var(--BacgroundLightGafitColor);
-   
 }
 
 .icon-clock,
@@ -476,24 +475,14 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    fill: var(--SecondGreyColorLighter);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.our-customer-list-icon-settings-foster-peters {
-    --color2: var(--SecondGreyColorLighter);
-}
-
-.our-customer-list-icon-settings-foster-peters:hover {
-    --color2: var(--StudioBlueColor);
-    border-color: var(--StudioBlueColor);
-    cursor: pointer;
-
-}
-
 .our-customer-list-icon-settings:hover,
-.our-customer-list-icon-settings:focus {
-    --color3: var(--StudioBlueColor);
+.our-customer-list-icon-settings:focus,
+.our-customer-list-icon-settings-foster-peters:hover {
+    fill: var(--StudioBlueColor);
     border-color: var(--StudioBlueColor);
     cursor: pointer;
 }
