@@ -152,6 +152,7 @@ body {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .envelope-icon,
 .icon-smartphone {
     fill: var(--MainGreyColor);
@@ -283,7 +284,7 @@ h1 {
 .icon-astronaut:focus {
     fill: var(--StudioBlueColor);
     cursor: pointer;
-   
+
 }
 
 .main-section-headings {
@@ -349,10 +350,12 @@ h1 {
     padding: 0;
     margin: 0;
 }
-.what-we-do-presentation-box{
+
+.what-we-do-presentation-box {
     position: relative;
     display: flex;
 }
+
 .what-we-do-presentation-label-settings {
     position: absolute;
     bottom: 0;
@@ -367,7 +370,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 0;
-    
+
     background-color: rgba(47, 48, 58, 0.8);
     width: 370px;
     height: 70px;
@@ -504,6 +507,7 @@ h1 {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .our-customer-list-icon-settings:hover,
 .our-customer-list-icon-settings:focus,
 .our-customer-list-icon-settings-foster-peters:hover {
@@ -733,6 +737,44 @@ h1 {
     flex-basis: calc((100%-2*30px)/3);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
+}
+.portfolio-box-overlay {
+    position: relative;
+    overflow: hidden;
+    height: 294px;
+}
+
+.portfolio-elements-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 370px;
+    height: 294px;
+    transform: translatey(100%);
+    transition: transform 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: rgba(33, 150, 243, 0.9);
+    padding-top: 49px;
+    padding-left: 24px;
+    padding-right: 45px;
+    padding-bottom: 49px;
+}
+
+.portfolio-elements-overlay-text {
+    font-family: var(--FontDefaultRoboto);
+    font-style: Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: var(--MainWhiteColor);
+    margin: 0;
+}
+
+.portfolio-elements:hover .portfolio-elements-overlay {
+    transform: translatey(0);
+
 }
 
 .portfolio-elements:hover {
