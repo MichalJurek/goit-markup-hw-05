@@ -164,13 +164,12 @@ body {
     display: flex;
     gap: 10px;
 }
-
-.icon-smartphone:hover,
-.icon-smartphone:focus,
-.envelope-icon:hover,
-.envelope-icon:focus,
 .header-links-contact:hover,
-.header-links-contact:focus {
+.header-links-contact:focus,
+.header-links-contact:hover .icon-smartphone:hover,
+.header-links-contact:focus .icon-smartphone:focus,
+.header-links-contact:hover .envelope-icon,
+.header-links-contact:focus .envelope-icon {
     fill: var(--StudioBlueColor);
     color: var(--StudioBlueColor);
     cursor: pointer;
