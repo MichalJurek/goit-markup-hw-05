@@ -110,8 +110,6 @@ body {
     cursor: pointer;
 }
 
-
-.index-portfolio-activ-underline::after,
 .portfolio-portfolio-activ-underline::after {
     position: absolute;
     height: 4px;
@@ -123,7 +121,6 @@ body {
     bottom: -32px;
 }
 
-/*
 .index-agencja-activ-underline::after {
     position: absolute;
     height: 4px;
@@ -134,38 +131,7 @@ body {
     left: 0;
     bottom: -32px;
 }
-.index-kontakt-activ-underline::after {
-    position: absolute;
-    height: 4px;
-    width: 100%;
-    content: "";
-    background-color: var(--StudioBlueColor);
-    border-radius: 2px;
-    left: 0;
-    bottom: -32px;
-}
 
-.portfolio-agencja-activ-underline::after {
-    position: absolute;
-    height: 4px;
-    width: 100%;
-    content: "";
-    background-color: var(--StudioBlueColor);
-    border-radius: 2px;
-    left: 0;
-    bottom: -32px;
-}
-.portfolio-kontakt-activ-underline::after {
-    position: absolute;
-    height: 4px;
-    width: 100%;
-    content: "";
-    background-color: var(--StudioBlueColor);
-    border-radius: 2px;
-    left: 0;
-    bottom: -32px;
-}
-*/
 
 .header-links-contact-container {
     display: flex;
