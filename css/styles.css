@@ -93,6 +93,7 @@ body {
 .header-links {
     font-family: var(--FontDefaultRoboto);
     font-style: normal;
+    position: relative;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -108,6 +109,29 @@ body {
     color: var(--StudioBlueColor);
     cursor: pointer;
 }
+
+.portfolio-portfolio-activ-underline::after {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    content: "";
+    background-color: var(--StudioBlueColor);
+    border-radius: 2px;
+    left: 0;
+    bottom: -32px;
+}
+
+.index-agencja-activ-underline::after {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    content: "";
+    background-color: var(--StudioBlueColor);
+    border-radius: 2px;
+    left: 0;
+    bottom: -32px;
+}
+
 
 .header-links-contact-container {
     display: flex;
