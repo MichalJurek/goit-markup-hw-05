@@ -255,6 +255,7 @@ h1 {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 2;
+    justify-content: center;
 }
 
 .is-hidden {
@@ -270,7 +271,8 @@ h1 {
     width: 528px;
     height: 581px;
     top: 221px;
-    left: 536px;
+    left: calc((100% - 528px)/2);
+    right: calc((100% - 528px)/2);
     border-radius: 4px;
     background: var(--MainWhiteColor);
     opacity: inherit;
